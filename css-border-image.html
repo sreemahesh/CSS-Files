@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS border image</title>
+        <style>
+            div{
+                height: 900px;
+                width: 550px;
+                border: 20px solid transparent;
+                border-image: url(border-image.png) 100 repeat;
+                margin-left: 450px;
+            }
+            div img{
+                height: 150px;
+                width: 550px;
+            }
+            h1,h2,h3{
+                text-align: center;
+                font-family: sans-serif;
+            }
+            h1,h2{
+                font-size: 100px;
+                margin: 0px;
+            }
+            h3{
+                font-size: 50px;
+                margin: 0px;
+            }
+            .border{
+                border: 50px solid transparent;
+                border-image: url(border.jpg) 100 repeat;
+            }
+            p{
+                text-align: center;
+                font-family: papyrus;
+                font-style: italic;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="design image.jpg" alt="design">
+            <h1>Graduation</h1>
+            <h3 class="border">Ceremony</h3>
+            <p>12.01.2025</p>
+            <p>Door Open at 20.00</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor.</p>
+            <h3>Class of</h3>
+            <h2>2025</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS moving bar</title>
+        <style>
+            div{
+                height: 29px;
+                width: 504px;
+                background-color: lightgray;
+                border-radius: 25px;
+                position: relative;
+                padding: 2px;
+            }
+            .linear{
+                height: 25px;
+                width: 150px;
+                background-image: repeating-linear-gradient(35deg,yellow 10%,green 20%);
+                position: absolute;
+                animation: movingbar 3s linear infinite forwards;
+            }
+            @keyframes movingbar{
+                0%{width: 150px;}
+                100%{width: 500px;}
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="linear"></div>
+        </div>
+    </body>
+</html>

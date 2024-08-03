@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS 3D animations</title>
+        <style>
+            .container{
+                height: 500px;
+                width: 800px;
+                margin-top: 50px;
+            }
+            .division{
+                height: 250px;
+                width: 100%;
+            }
+            .normal{
+                height: 200px;
+                width: 200px;
+                border: 1px solid gray;
+                float: left;
+                margin: 25px;
+                perspective: 300px;
+                position: relative;
+            }
+            .green{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(4, 96, 4, 0.7);
+                text-align: center;
+                color: white;
+                position: absolute;
+            }
+            .one{
+                transform: rotateX(45deg);
+            }
+            .two{
+                transform: rotateY(45deg);
+            }
+            .three{
+                transform: rotateZ(45deg);
+            }
+            .four{
+                transform: translateX(30px);
+            }
+            .five{
+                transform: translateY(30px);
+            }
+            .six{
+                transform: translateZ(50px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="division">
+                <div class="normal">
+                    <div class="green one">rotateX(45deg)</div>
+                </div>
+                <div class="normal">
+                    <div class="green two">rotateY(45deg)</div>
+                </div>
+                <div class="normal">
+                    <div class="green three">rotateZ(45deg)</div>
+                </div>
+            </div>
+            <div class="division">
+                <div class="normal">
+                    <div class="green four">translateX(30px)</div>
+                </div>
+                <div class="normal">
+                    <div class="green five">translateX(30px)</div>
+                </div>
+                <div class="normal">
+                    <div class="green six">translateX(50px)</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

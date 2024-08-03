@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculater inHtml and Css</title>
+        <style>
+            #parent{
+                height: 350px;
+                width: 300px;
+                background-color: rgb(48, 48, 48);
+                border-radius: 20px;
+                margin: 100px 550px;
+            }
+            #plain{
+                height: 25px;
+                width: 100%;
+            }
+            #display{
+                height: 50px;
+                width: 250px;
+                background-color:cadetblue;
+                border: 3px solid black;
+                margin: 0px 25px;
+            }
+            #line2{
+                height: 75px;
+                width: 100%;
+            }
+            #mrc{
+                height: 25px;
+                width: 40px;
+                background-color: gray;
+                border-radius: 10px;
+                margin: 25px 25px 25px 35px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #mneg{
+                height: 25px;
+                width: 40px;
+                background-color: gray;
+                border-radius: 10px;
+                margin: 25px 25px 25px 0;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #mpos{
+                height: 25px;
+                width: 40px;
+                background-color: gray;
+                border-radius: 10px;
+                margin: 25px 25px 25px 0;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #div{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(200, 74, 74);
+                border-radius: 10px;
+                margin: 25px 25px 25px 0;
+                text-align: center;
+                float: left;
+            }
+            #line3{
+                height: 50px;
+                width: 100%;
+            }
+            #sev{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 35px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #eig{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #nin{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #mul{
+                height: 25px;
+                width: 40px;
+                background-color:  rgb(200, 74, 74);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                text-align: center;
+                float: left;
+            }
+            #line4{
+                height: 50px;
+                width: 100%;
+            }
+            #fou{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 35px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #fiv{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #six{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #neg{
+                height: 25px;
+                width: 40px;
+                background-color:  rgb(200, 74, 74);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                text-align: center;
+                float: left;
+            }
+            #line5{
+                height: 50px;
+                width: 100%;
+            }
+            #one{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 35px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #two{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #thr{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #pos{
+                height: 25px;
+                width: 40px;
+                background-color:  rgb(200, 74, 74);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                text-align: center;
+                float: left;
+            }
+            #line6{
+                height: 50px;
+                width: 100%;
+            }
+            #zer{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 35px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #dot{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #cal{
+                height: 25px;
+                width: 40px;
+                background-color: rgb(34, 32, 32);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                color: white;
+                text-align: center;
+                float: left;
+            }
+            #equ{
+                height: 25px;
+                width: 40px;
+                background-color:  rgb(197, 136, 22);
+                border-radius: 10px;
+                margin: 0px 25px 25px 0px;
+                text-align: center;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="plain"></div>
+            <div id="display"></div>
+            <div id="line2">
+                <div id="mrc">mrc</div>
+                <div id="mneg">m-</div>
+                <div id="mpos">m+</div>
+                <div id="div">/</div>
+            </div>
+            <div id="line3">
+                <div id="sev">7</div>
+                <div id="eig">8</div>
+                <div id="nin">9</div>
+                <div id="mul">*</div>
+            </div>
+            <div id="line4">
+                <div id="fou">4</div>
+                <div id="fiv">5</div>
+                <div id="six">6</div>
+                <div id="neg">-</div>
+            </div>
+            <div id="line5">
+                <div id="one">1</div>
+                <div id="two">2</div>
+                <div id="thr">3</div>
+                <div id="pos">+</div>
+            </div>
+            <div id="line6">
+                <div id="zer">0</div>
+                <div id="dot">.</div>
+                <div id="cal">C</div>
+                <div id="equ">=</div>
+            </div>
+        </div>
+    </body>
+</html>

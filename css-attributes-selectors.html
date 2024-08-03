@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css attributes selectors</title>
+        <style>
+            h1[id]{
+                color: red;
+                background-color: yellow;
+            }
+            h4[class=four]{
+                color: white;
+                background-color: blue;
+            }
+            [class~="forest"]{
+                color: blue;
+                background-color: aqua;
+            }
+            [class|="para"]{
+                color: red;
+                background-color: bisque;
+            }
+            [class^="fish"]{
+                color: green;
+                background-color: khaki;
+            }
+            [class$="teen"]{
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="one">This is a main heading.</h1>
+        <h2 id="two">This is a second heading.</h2>
+        <h3 id="three">This is a third heading.</h3>
+        <h4 class="four">This is a fourth heading.</h4>
+        <h5 class="five">This is a fifth heading.</h5>
+        <h6 class="six">This is a sixth heading.</h6>
+        <p class="fifteen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor. Nullam id tincidunt elit, nec finibus ligula. Sed congue est consequat tristique cursus. Sed iaculis, lacus nec pharetra vehicula, tortor lectus tincidunt diam, a pellentesque leo ex eu est. Maecenas hendrerit quam enim, et placerat mi porttitor bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor. Nullam id tincidunt elit, nec finibus ligula. Sed congue est consequat tristique cursus. Sed iaculis, lacus nec pharetra vehicula, tortor lectus tincidunt diam, a pellentesque leo ex eu est. Maecenas hendrerit quam enim, et placerat mi porttitor bibendum.</p>
+        <p class="sixteen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor. Nullam id tincidunt elit, nec finibus ligula. Sed congue est consequat tristique cursus. Sed iaculis, lacus nec pharetra vehicula, tortor lectus tincidunt diam, a pellentesque leo ex eu est. Maecenas hendrerit quam enim, et placerat mi porttitor bibendum.</p>
+        <p class="eighteen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor. Nullam id tincidunt elit, nec finibus ligula. Sed congue est consequat tristique cursus. Sed iaculis, lacus nec pharetra vehicula, tortor lectus tincidunt diam, a pellentesque leo ex eu est. Maecenas hendrerit quam enim, et placerat mi porttitor bibendum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu feugiat ligula, sit amet vulputate turpis. Nullam egestas accumsan eros ac rutrum. Suspendisse sit amet magna sed quam porttitor consectetur viverra et dolor. Nullam id tincidunt elit, nec finibus ligula. Sed congue est consequat tristique cursus. Sed iaculis, lacus nec pharetra vehicula, tortor lectus tincidunt diam, a pellentesque leo ex eu est. Maecenas hendrerit quam enim, et placerat mi porttitor bibendum.</p>
+        <p class="para">This is a paragraph.</p>
+        <p class="second para">This is a second paragraph.</p>
+        <p class="thirdpara">This is a third paragraph.</p>
+        <p class="para-four">This is a fourth paragraph.</p>
+        <p class="forest">forest</p>
+        <p class="deep forest">deep-forest</p>
+        <p class="forest area">forest area</p>
+        <p class="forest-officer">forest-officer</p>
+        <p class="fish">fish</p>
+        <p class="fish-beeta">beeta fish</p>
+        <p class="golden fish">golden fish</p>
+    </body>
+</html>
